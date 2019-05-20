@@ -9,4 +9,4 @@ install:
 script:
   - pipenv run pytest --cov
 after_success:
-  - coveralls
+  - pipenv run coveralls
